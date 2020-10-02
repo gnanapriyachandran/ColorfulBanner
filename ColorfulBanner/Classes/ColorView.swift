@@ -7,43 +7,29 @@
 
 import UIKit
 
-class ColorView: UIView {
-
-   let colors : [UIColor] = [.red, .orange, .yellow, .green, .blue, .purple]
+public class ColorView: UIView {
     
-    var colorCounter = 0
+    @IBOutlet public weak var titleLabel: UILabel!
+    public let colors : [UIColor] = [.red, .orange, .yellow, .green, .blue, .purple]
+    public var colorCounter = 0
     
-    public override init(frame: CGRect) {
-        super.init(frame: frame)
-        xibSetup()
-    }
-    
-    public required init?(coder: NSCoder) {
-        super.init(coder: coder)
-        xibSetup()
-    }
-    
-    public func xibSetup() {
-        let BannerView = loadViewFromNib()
-        BannerView.frame = self.bounds
+    public func loadViewFromNib() -> UIView {
+        let bundle = Bundle(for: ColorView.self)
+        let nib = UINib(nibName: "ColorView", bundle: bundle)
+        let view = nib.instantiate(withOwner: self, options: nil).first as! UIView
         if #available(iOS 10.0, *) {
             let scheduledTimer = Timer.scheduledTimer(withTimeInterval: 2.0, repeats: true) { (timer) in
                 UIView.animate(withDuration: 2.0) {
-                    BannerView.layer.backgroundColor = self.colors[self.colorCounter % 6].cgColor
+                     view.backgroundColor = self.colors[self.colorCounter % 6]
                     self.colorCounter += 1
                 }
             }
             scheduledTimer.fire()
-            self.addSubview(BannerView)
         } else {
             // Fallback on earlier versions
         }
+        return view
     }
     
-    public func loadViewFromNib() -> UIView {
-        let nib = UINib(nibName: "ColorView", bundle: nil)
-        return (nib.instantiate(withOwner: self, options: nil).first as? UIView)!
-    }
     
-
 }

@@ -33,9 +33,9 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'ColorfulBanner/Classes/**/*'
   
-  #s.resource_bundles = {
-     #'ColorfulBanner' => ['ColorfulBanner/Assets/*.png']
-   #}
+  s.resource_bundles = {
+     'ColorfulBanner' => ['ColorfulBanner/Assets/ColorView.xib']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
