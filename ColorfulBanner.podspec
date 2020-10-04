@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  Specify the name of the view for which color has to be changed. Voila !!! Your color changing banner is ready :)
                        DESC
 
   s.homepage         = 'https://github.com/gnanapriyachandran/ColorfulBanner'
@@ -33,9 +33,9 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'ColorfulBanner/Classes/**/*'
   
-  s.resource_bundles = {
-     'ColorfulBanner' => ['ColorfulBanner/Assets/ColorView.xib']
-   }
+#  s.resource_bundles = {
+#     'ColorfulBanner' => ['ColorfulBanner/Assets/ColorView.xib']
+#   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
