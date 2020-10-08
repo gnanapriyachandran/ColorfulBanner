@@ -13,6 +13,7 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		9A71577B252F84E300011CB6 /* ColorChange.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9A71577A252F84E300011CB6 /* ColorChange.gif */; };
 		A6DC32794773ADDE1FBE1BFE /* Pods_ColorfulBanner_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3C74C08C633D26D6F74C96 /* Pods_ColorfulBanner_Example.framework */; };
 		DEA928F37F96DC677498CA47 /* Pods_ColorfulBanner_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6091F6A5860533D40E773F6A /* Pods_ColorfulBanner_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -46,6 +47,7 @@
 		71D72C7B002AD8628D3C8528 /* Pods-ColorfulBanner_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorfulBanner_Tests.release.xcconfig"; path = "Target Support Files/Pods-ColorfulBanner_Tests/Pods-ColorfulBanner_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		86EF81B1BAA7CCDBE9571110 /* Pods-ColorfulBanner_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorfulBanner_Example.release.xcconfig"; path = "Target Support Files/Pods-ColorfulBanner_Example/Pods-ColorfulBanner_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8E5174D0A1C57F8773D43A0C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9A71577A252F84E300011CB6 /* ColorChange.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ColorChange.gif; sourceTree = "<group>"; };
 		A0934B28170734AAD98F07F6 /* Pods-ColorfulBanner_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorfulBanner_Example.debug.xcconfig"; path = "Target Support Files/Pods-ColorfulBanner_Example/Pods-ColorfulBanner_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,6 +85,7 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				9A71577A252F84E300011CB6 /* ColorChange.gif */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for ColorfulBanner */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -248,6 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A71577B252F84E300011CB6 /* ColorChange.gif in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
