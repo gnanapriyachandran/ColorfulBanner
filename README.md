@@ -28,4 +28,4 @@ gnanapriyachandran, gnanapriya.cr@gmail.com
 
 ColorfulBanner is available under the MIT license. See the LICENSE file for more info.
 
-![](ColorChange.gif)
+![](Example/ColorChange.gif)
