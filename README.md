@@ -1,6 +1,6 @@
 # ColorfulBanner
 
-[![CI Status](https://img.shields.io/travis/gnanapriyachandran/ColorfulBanner.svg?style=flat)](https://travis-ci.org/gnanapriyachandran/ColorfulBanner)
+
 [![Version](https://img.shields.io/cocoapods/v/ColorfulBanner.svg?style=flat)](https://cocoapods.org/pods/ColorfulBanner)
 [![License](https://img.shields.io/cocoapods/l/ColorfulBanner.svg?style=flat)](https://cocoapods.org/pods/ColorfulBanner)
 [![Platform](https://img.shields.io/cocoapods/p/ColorfulBanner.svg?style=flat)](https://cocoapods.org/pods/ColorfulBanner)
